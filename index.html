@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo Amaro Maciel">
+    <meta name="description" content="Meu primeiro portifolio feito em html">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Portfolio, Eduardo Amaro Maciel, HTML">
+
+    <link rel="shortcut icon" href="imagens/icon-page.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eduardo Amaro Maciel</title>
+
+    <script src="name-render/name-render.js" defer></script>
+    <script src="jquery/jquery-3.6.0.min.js" defer></script>
+    <script src="jquery/pre-loader.js" defer></script>
+
+</head>
+<body onload="render_name()">
+
+    <div id="preloader">
+        <div class="inner">
+           <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+           <img src="imagens/pre-loader.gif" alt="loarder da pagina">
+        </div>
+    </div>
+
+    <header>
+        <div class="profile box">
+            <img class="profile-pic" src="imagens/profile.jpeg" alt="">
+            <h1 id="meu-nome" class="title"> <!-- JavaScript --> </h1>
+            <span>Itajaí - SC</span><br>
+            <span>(47) 9 97624 - 4220</span><br>
+            <span>eduardo.maciel@edu.univali.br</span>
+            <p>DESENVOLVEDOR WEB | ENTUSIASTA DA TECNOLOGIA</p>
+            
+            <ul class="redes-sociais">
+                <li><a target="_blank" href="https://www.instagram.com/eduamaro.m/"><img class="imagens" src="imagens/instagram.png" alt="instagram"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/eduardo-amaro-maciel-a7b899203/"><img class="imagens" src="imagens/linkedin.png" alt="linkedin"></a></li>
+                <li><a target="_blank" href="https://github.com/eduardo-amaro-maciel"><img class="imagens" src="imagens/github.png" alt="github"></a></li>
+            </ul>
+        </div> 
+    </header>   
+
+    <div class="portfolio box">
+        
+        <h1 class="title">Portfólio</h1>
+        <ul>
+            <section>
+                <li>
+                    <img src="imagens/1.jpg" alt="">
+                    <div>
+                        <h2>Sobre Mim</h2>
+                        <p>
+                            Atualmente fazendo o curso tecnólogo de Sistemas Para Internet 
+                            pela Universidade do Vale do Itajaí (2021). Adoro o mundo da
+                            programação e sua parte de resolução de problemas com algoritmos.
+                            Des da parte de um simples 
+                            <strong><abbr title="todo programador ja fez isso">Hello Word!</abbr></strong>
+                            até o algoritmo mais complexo para esconder uma simples frase em
+                            uma imagem por exemplo.
+                        </p>
+                    </div>
+                </li>
+            </section>
+
+            <section>
+                <li>
+                    <img src="imagens/2.jpg" alt="">
+                    <div>
+                        <h2>Ferramentas</h2>
+                        <p>
+                            Atualmente uso o VS Code para fazer a parte de edição do meu código,
+                            mas consigo me adapitar facilmente com qualquer editor de texto / IDE.
+                            Possuo conhecimentos em PowerBI, Microsoft 360, C++, Python, JS, HTML 
+                            e CSS, ambas sendo estudadas constantemente.
+                        </p>
+                    </div>
+                </li>
+            </section>
+
+            <section>
+                <li>
+                    <img src="imagens/3.jpg" alt="">
+                    <div>
+                        <h2>Projeto</h2>
+                        <p>
+                            Python é uma  das linguagens que mais possuo domínio, des da parte de automação,
+                            até a parte de análise e ciência de dados, com isso consegui desenvolver um
+                            <a target="_blank" href=https://github.com/eduardo-amaro-maciel/Python-Projects/tree/main/Automatiza%C3%A7%C3%A3o%20De%20Email%20De%20Vendas%20-%20Python">algoritmo</a>  
+                            de automação de Email para empresas, onde é realizado uma análise 
+                            comparativa entre varias lojas em relação as suas vendas, e logo após isso, 
+                            automaticamente irá enviar a análise completa para o Email da empresa ou funcionarios.
+                        </p>
+                    </div>
+                </li>
+            </section>
+        </ul>
+    </div>
+    
+    <footer>
+        <p class="copyright">&copy;2021 Eduardo Amaro Maciel</p>
+    </footer>
+
+    <noscript>Seu navegador não suporta JavaScript</noscript>
+</body>
+</html>
